@@ -1,0 +1,42 @@
+ .head{
+    color:rgb(0, 15, 15);
+    background-color:#11daf5;
+    padding: 10px;
+ }
+    .pesonalDetails{
+        padding-left: 40%;
+        }
+    
+    
+    
+
+
+    h1{
+        text-align: center;
+    }
+    h5{
+        color: black;
+        background-color: #11daf5;
+    }
+
+    .splitleft {
+        
+        width: 25%;
+        float:left;
+        padding-left: 39px;
+        background-color: rgb(211, 205, 205);                              
+    }
+    .splitright{
+        width:70%;
+        height:100%;
+        
+        float:right;
+        background-color:white;
+    }
+    table,tr,th{
+        border:2px solid black;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }

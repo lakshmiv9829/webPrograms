@@ -1,0 +1,41 @@
+body{
+    /* text-align: left; */
+    
+    /* border: 1px solid black;  */
+    padding: 20px;
+    width: 400px;
+    height:400px;
+    margin:20px;
+    /* box-shadow: 8px 8px 8px;  */
+}
+.one{
+    border: solid black;
+    width: 600px;
+    
+    margin: 20px;
+    padding: 20px;
+}
+.button{
+    background-color: rgb(36, 240, 240);
+}
+.res{
+    width: 65px;
+    
+} 
+.exe{
+    background-color: rgb(36, 240, 240);
+    margin: 20px;
+}
+.simple{
+
+    width: 85px;
+    margin: 20px;
+} 
+.pri{
+    background-color: rgb(36, 240, 240);
+}
+/* .pr{
+    width: 90px;
+    margin:100pzx
+}
+    */

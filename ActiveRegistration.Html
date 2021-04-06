@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="ActiveRegistration.Css">
+</head>
+
+<body>
+    <h1>Registraction Form</h1>
+    <form>
+        <div>
+            <label for="Name">Name:</label>
+            <input autocomplete="off" class="move" type="text" id="Name" placeholder="Enter Your Name">
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input class="move" type="number" id="Age" placeholder="Enter Your Age">
+        </div>
+        <br>
+
+        <div>
+            <label>Email:</label>
+            <input class="move" type="email" id="Email" placeholder="Enter Your email">
+        </div>
+        <br>
+        <div>
+            <label>password:</label>
+            <input class="move" type="password" id="password" placeholder="Enter Your password">
+        </div>
+        <br>
+
+
+        <div>
+            <label>Date Of Joining:</label>
+            <input class="move" type="date" id="Date Of Joining" placeholder="Enter the date">
+        </div>
+        <br>
+        <div>
+            <lable>Select domin</lable>
+            <select id="my-select11">
+                <option value="1">Java</option>
+                <option value="2">javaScript</option>
+                <option value="3">Web</option>
+            </select>
+        </div>
+        <br>
+        <div id="one">
+            <input type="radio" id="r1" name="lang" value="Definitely"> Definitely
+            <input type="radio" id="r2" name="lang" value="Maybe"> Maybe
+            <input type="radio" id="r3" name="lang" value="NotSure" checked="checked">NotSure  
+          </div>
+        <br>
+         <input type="checkbox" value="Front-end-projects">Front-end-projects
+         <input type="checkbox" value="back-end-projects">back-end-projects
+         <input type="checkbox" value="Data visualization">Data visualization
+
+        <div>
+            <br>
+            <a href="ActiveLogin.html">
+                <input class="button" type="button" id="button" onclick="register()" value="register">
+            </a>
+            <button type="reset" class="btn btn-info">reset</button>
+            <!--<input type="reset" value="reset">-->
+        </div>
+
+
+
+    </form>
+
+    <br>
+    <script src="./ActiveRegistration.Js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> -->
+    <!-- // $(document).ready(function(){
+        //     $('.move').on('keyup', function(e){
+        //         if (e.keyCode == 38) {
+            
+        //         $(this).prev().focus();
+
+        //     }
+        //     if (e.keyCode == 40) {   
+
+        //         alert('down')   
+        //         $(this).next().focus();
+        //         alert('working')
+
+        //     }
+        //     })
+        // })
+
+
+
+    //     document.addEventListener('keydown', handleInputFocusTransfer);
+
+    //     function handleInputFocusTransfer(e) {
+    //         // This method move focus to next item input on DOWN or to previous item input on UP arrow key press.
+    //         const focusableInputElements = document.querySelectorAll(`input`);
+
+    //         //Creating an array from the node list
+    //         const focusable = [...focusableInputElements];
+
+    //         //get the index of current item
+    //         const index = focusable.indexOf(document.activeElement);
+
+    //         // Create a variable to store the idex of next item to be focussed
+    //         let nextIndex = 0;
+
+    //         if (e.keyCode === 38) {
+    //             // up arrow
+    //             e.preventDefault();
+    //             nextIndex = index > 0 ? index - 1 : 0;
+    //             focusableInputElements[nextIndex].focus();
+    //         }
+    //         else if (e.keyCode === 40) {
+    //             // down arrow
+    //             e.preventDefault();
+    //             nextIndex = index + 1 < focusable.length ? index + 1 : index;
+    //             focusableInputElements[nextIndex].focus();
+    //         }
+    //     }
+    // </script> -->
+</body>
+
+</html>

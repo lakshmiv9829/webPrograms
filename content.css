@@ -1,0 +1,20 @@
+
+
+ul{
+    margin: 0;
+    padding: 0fr;
+}
+.dropdown-content a{
+    padding:30px;
+
+}
+.dropdown-content{
+    display:none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
+li:hover{
+    background-color: orange;
+}

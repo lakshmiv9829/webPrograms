@@ -1,0 +1,31 @@
+body{
+    background-color:white;
+}
+.First {
+    width: 30%;
+    height:100%;
+    float:left;
+    background-color: antiquewhite;                              
+}
+
+.second {
+    width:70%;
+    height:100%;
+    float:right;
+}
+.intro{
+    background-color: black;
+    color: white;
+}
+
+
+h2{
+    background-color: black;
+    color: white;
+}
+
+b{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
